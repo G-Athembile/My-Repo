@@ -1,0 +1,6 @@
+python
+def sum_of_evens(arr):
+return sum(num for num in arr if num%2 == 0)
+//testing the function
+arr = [1,2,3,4,5,6]
+print(sum_of_evens(arr)) 
